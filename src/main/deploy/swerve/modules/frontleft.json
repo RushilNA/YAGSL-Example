@@ -1,26 +1,27 @@
 {
+  "location": {
+    "front": 29,
+    "left": 29
+  },
+  "absoluteEncoderOffset": 245.91796875,
   "drive": {
-    "type": "talonfx",
+    "type": "sparkmax",
     "id": 4,
     "canbus": null
   },
   "angle": {
-    "type": "talonfx",
-    "id": 2,
+    "type": "sparkmax",
+    "id": 3,
     "canbus": null
   },
   "encoder": {
     "type": "cancoder",
-    "id": 1,
+    "id": 34,
     "canbus": null
   },
   "inverted": {
     "drive": false,
     "angle": false
   },
-  "absoluteEncoderOffset": -259.805,
-  "location": {
-    "front": -7,
-    "left": 7
-  }
+  "absoluteEncoderInverted": false
 }
